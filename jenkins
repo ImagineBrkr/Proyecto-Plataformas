@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                pip install -r requirements.txt"
+                pip install -r requirements.txt
                 '''
             }
         }
@@ -21,7 +21,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 python3 hello.py
-                python3 hello.py --name=Salvattore"
+                python3 hello.py --name=Salvattore
                 '''
             }
         }
